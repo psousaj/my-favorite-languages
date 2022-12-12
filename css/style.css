@@ -112,7 +112,7 @@ main ul li > figure {
 
 main ul li > :last-child {
   position: absolute;
-  left: calc(50% + 3.25em);
+  left: calc(50% + 4.5em);
 
   color: #4a56f9;
 }
