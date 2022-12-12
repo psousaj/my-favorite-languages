@@ -24,6 +24,10 @@ body {
   margin: 0 auto;
 }
 
+header {
+  height: 115px;
+}
+
 header section.container.m37021353-header-items {
   background-color: #f1f5f9;
   display: flex;
@@ -105,7 +109,7 @@ main ul li > figure {
 main ul li > :last-child {
   position: absolute;
   left: calc(50% + 6.25em);
-  font-size: 28px;
+  font-size: 42px;
 
   color: #4a56f9;
 }
@@ -115,9 +119,13 @@ main ul li:nth-child(4) h3 {
   color: #be123c;
 }
 
-footer .container {
+footer {
   text-align: center;
   margin: 2rem auto;
 
   color: #64748b;
+}
+
+main ul li:nth-child(2) {
+  font-size: 20px;
 }
