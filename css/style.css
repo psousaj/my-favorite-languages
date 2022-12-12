@@ -102,14 +102,17 @@ main ul li {
   background-color: #f1f5f9;
 }
 
+main ul li h3 {
+  font-size: 42px;
+}
+
 main ul li > figure {
   margin: 10px;
 }
 
 main ul li > :last-child {
   position: absolute;
-  left: calc(50% + 6.25em);
-  font-size: 42px;
+  left: calc(50% + 3.25em);
 
   color: #4a56f9;
 }
